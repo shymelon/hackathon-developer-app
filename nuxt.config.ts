@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   eslint: {
     config: {
-      stylistic: true,
+      stylistic: false,
     },
   },
   tailwindcss: {

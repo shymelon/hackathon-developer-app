@@ -6,7 +6,7 @@
       <!-- Form Section -->
       <div class="w-full lg:w-1/3">
         <h1 class="text-gray-900 text-4xl font-semibold mb-4 text-center">
-          Вход
+          Вход (dev ветка)
         </h1>
         <form class="space-y-6">
           <!-- Email Input -->

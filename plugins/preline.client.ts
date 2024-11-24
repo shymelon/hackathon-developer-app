@@ -10,5 +10,5 @@ declare global {
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.hook("page:finish", () => {
     window.HSStaticMethods.autoInit();
-  })
+  });
 });

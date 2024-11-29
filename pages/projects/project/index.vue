@@ -1,3 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ProjectNavigation from "~/components/ProjectNavigation.vue";
+</script>
 
-<template><div></div></template>
+<template>
+  <div>
+    <ProjectNavigation />
+  </div>
+</template>
+
+<style scoped></style>

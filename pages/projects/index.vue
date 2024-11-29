@@ -14,13 +14,15 @@
       <div
         class="flex gap-x-5 gap-y-10 items-center justify-between flex-wrap mt-10"
       >
-        <article
-          class="w-[32.354%] min-h-[362px] flex items-end border border-solid border-[#E5E7EB] rounded-lg bg-[url('/images/project_bg.png')] bg-no-repeat bg-top-center bg-contain"
-        >
-          <NuxtLink to="/projects/project">
-            <div class="h-fit p-5 bg-white rounded-b-lg">
+        <NuxtLink to="/projects/project" class="w-[32.354%]">
+          <article
+            class="min-h-[362px] flex items-end border border-solid border-[#E5E7EB] rounded-lg bg-[url('/images/project__bg.png')] bg-no-repeat bg-top-center bg-contain"
+          >
+            <div
+              class="w-full flex flex-col gap-y-4 h-fit p-5 bg-white rounded-b-lg"
+            >
               <h2 class="text-lg text-[#1F2937] font-bold">Проект 1</h2>
-              <p class="text-base text-[#6B7280] font-medium my-4">
+              <p class="text-base text-[#6B7280] font-medium">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -28,16 +30,18 @@
                 Last updated 5 mins ago
               </p>
             </div>
-          </NuxtLink>
-        </article>
+          </article>
+        </NuxtLink>
 
-        <article
-          class="w-[32.354%] min-h-[362px] flex items-end border border-solid border-[#E5E7EB] rounded-lg bg-[url('/images/project_bg.png')] bg-no-repeat bg-top-center bg-contain"
-        >
-          <NuxtLink to="/projects/project">
-            <div class="h-fit p-5 bg-white rounded-b-lg">
-              <h2 class="text-lg text-[#1F2937] font-bold">Проект 2</h2>
-              <p class="text-base text-[#6B7280] font-medium my-4">
+        <NuxtLink to="/projects/project" class="w-[32.354%]">
+          <article
+            class="min-h-[362px] flex items-end border border-solid border-[#E5E7EB] rounded-lg bg-[url('/images/project__bg.png')] bg-no-repeat bg-top-center bg-contain"
+          >
+            <div
+              class="w-full flex flex-col gap-y-4 h-fit p-5 bg-white rounded-b-lg"
+            >
+              <h2 class="text-lg text-[#1F2937] font-bold">Проект 1</h2>
+              <p class="text-base text-[#6B7280] font-medium">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -45,16 +49,18 @@
                 Last updated 5 mins ago
               </p>
             </div>
-          </NuxtLink>
-        </article>
+          </article>
+        </NuxtLink>
 
-        <article
-          class="w-[32.354%] min-h-[362px] flex items-end border border-solid border-[#E5E7EB] rounded-lg bg-[url('/images/project_bg.png')] bg-no-repeat bg-top-center bg-contain"
-        >
-          <NuxtLink to="/projects/project">
-            <div class="h-fit p-5 bg-white rounded-b-lg">
-              <h2 class="text-lg text-[#1F2937] font-bold">Проект 3</h2>
-              <p class="text-base text-[#6B7280] font-medium my-4">
+        <NuxtLink to="/projects/project" class="w-[32.354%]">
+          <article
+            class="min-h-[362px] flex items-end border border-solid border-[#E5E7EB] rounded-lg bg-[url('/images/project__bg.png')] bg-no-repeat bg-top-center bg-contain"
+          >
+            <div
+              class="w-full flex flex-col gap-y-4 h-fit p-5 bg-white rounded-b-lg"
+            >
+              <h2 class="text-lg text-[#1F2937] font-bold">Проект 1</h2>
+              <p class="text-base text-[#6B7280] font-medium">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -62,16 +68,18 @@
                 Last updated 5 mins ago
               </p>
             </div>
-          </NuxtLink>
-        </article>
+          </article>
+        </NuxtLink>
 
-        <article
-          class="w-[32.354%] min-h-[362px] flex items-end border border-solid border-[#E5E7EB] rounded-lg bg-[url('/images/project_bg.png')] bg-no-repeat bg-top-center bg-contain"
-        >
-          <NuxtLink to="/projects/project">
-            <div class="h-fit p-5 bg-white rounded-b-lg">
-              <h2 class="text-lg text-[#1F2937] font-bold">Проект 4</h2>
-              <p class="text-base text-[#6B7280] font-medium my-4">
+        <NuxtLink to="/projects/project" class="w-[32.354%]">
+          <article
+            class="min-h-[362px] flex items-end border border-solid border-[#E5E7EB] rounded-lg bg-[url('/images/project__bg.png')] bg-no-repeat bg-top-center bg-contain"
+          >
+            <div
+              class="w-full flex flex-col gap-y-4 h-fit p-5 bg-white rounded-b-lg"
+            >
+              <h2 class="text-lg text-[#1F2937] font-bold">Проект 1</h2>
+              <p class="text-base text-[#6B7280] font-medium">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -79,8 +87,8 @@
                 Last updated 5 mins ago
               </p>
             </div>
-          </NuxtLink>
-        </article>
+          </article>
+        </NuxtLink>
       </div>
     </main>
   </div>

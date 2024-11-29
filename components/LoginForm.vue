@@ -27,7 +27,7 @@ const onSubmit = () => {
       <input
         id="password"
         type="password"
-        class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-[#2563EB] focus:ring-4 focus:ring-[#2563EB]/20 mt-[15px]"
+        class="block w-full rounded-lg border-[#E5E7EB] shadow-sm d mt-[15px]"
       />
     </div>
 

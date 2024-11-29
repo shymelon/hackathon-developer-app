@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-10 pb-10 pt-3 flex justify-between items-center">
+  <div class="px-10 pb-10 pt-3 flex justify-between items-center bg-[#F8FAFC]">
     <div class="flex gap-x-3 items-center">
       <svg
         width="34"
@@ -28,7 +28,7 @@
           <NuxtLink to="/projects">Проекты</NuxtLink>
         </li>
         <li class="text-sm text-[#1F2937] font-medium">
-          <NuxtLink to="/setting">Настройки</NuxtLink>
+          <NuxtLink to="/settings">Настройки</NuxtLink>
         </li>
         <li>
           <svg

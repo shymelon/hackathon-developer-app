@@ -2,10 +2,10 @@
 
 <template>
   <main class="px-10">
-    <div>
-      <div></div>
+    <div class="flex gap-x-5 items-center">
+      <div class="shadow-sm bg-[#F3F4F6] rounded-2xl min-h-[220px]"></div>
 
-      <div></div>
+      <div class="shadow-sm bg-[#F3F4F6] rounded-2xl min-h-[220px]"></div>
     </div>
 
     <div>

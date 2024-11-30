@@ -35,7 +35,7 @@ definePageMeta({
           </div>
 
           <!-- Password Input -->
-          <div class="relative">
+          <div class="relative my-4">
             <label for="password" class="text-sm text-[#1F2937] font-medium"
               >Пароль</label
             >
@@ -46,7 +46,7 @@ definePageMeta({
             />
           </div>
 
-          <div class="relative mt-4">
+          <div class="relative">
             <label for="password" class="text-sm text-[#1F2937] font-medium"
               >Подтверждение пароля</label
             >

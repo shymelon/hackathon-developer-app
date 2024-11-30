@@ -54,7 +54,7 @@ definePageMeta({
               id="email"
               v-model="email"
               type="email"
-              class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-indigo-500 focus:ring-indigo-500 mt-[15px]"
+              class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-[#2563EB] focus:ring-4 focus:ring-[#2563EB]/20 mt-[15px]"
             />
             <p v-if="errors.has('email')" class="text-red-500 text-sm mt-1">
               {{ errors.get("email") }}

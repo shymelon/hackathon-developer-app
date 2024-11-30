@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import { useUser } from "#imports";
+import { userLogout } from "~/composables/useAuth";
+
+const user = await useUser();
+</script>
+
 <template>
   <div class="px-10 pb-10 pt-3 flex justify-between items-center bg-[#F8FAFC]">
     <div class="flex gap-x-3 items-center">
@@ -103,7 +110,16 @@
           />
         </svg>
 
-        <span class="text-base text-[#1F2937] font-semibold">Name Surname</span>
+        <span class="text-base text-[#1F2937] font-semibold">{{
+          user.name
+        }}</span>
+      </button>
+      <button
+        type="button"
+        class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400 dark:focus:text-blue-400"
+        @click="userLogout"
+      >
+        Выход
       </button>
     </div>
   </div>

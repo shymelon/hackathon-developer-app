@@ -2,7 +2,7 @@
 
 <template>
   <div class="flex-1">
-    <ProjectNavigation />
+    <PlanNavigation />
     <div class="mx-10 pt-10 flex gap-x-32">
       <div class="w-[57.721%]">
         <div class="w-full min-h-[200px]">

@@ -1,6 +1,6 @@
 <template>
   <div class="flex-1">
-    <ProjectNavigation />
+    <PlanNavigation />
   </div>
 </template>
 

@@ -186,7 +186,7 @@
           <li
             class="w-full bg-white rounded-xl shadow-sm border border-solid border-[#e5e7eb]"
           >
-            <NuxtLink to="/projects/project/plans/5/finance">
+            <NuxtLink to="/projects/[id]/plans/[planID]/tasks">
               <div
                 class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl"
               >

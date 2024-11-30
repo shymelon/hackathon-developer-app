@@ -1,11 +1,8 @@
-<script setup lang="ts">
-import ProjectNavigation from "~/components/ProjectNavigation.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="flex-1">
     <ProjectNavigation />
-
     <div class="mx-10 pt-10 flex gap-x-32">
       <div class="w-[57.721%]">
         <div class="w-full min-h-[200px]">
@@ -29,11 +26,9 @@ import ProjectNavigation from "~/components/ProjectNavigation.vue";
             </div>
 
             <button
-              class="w-fit py-2.5 px-3 flex items-center gap-x-2.5 border border-solid border-[#2563EB] rounded-lg"
+              class="w-fit h-[38px] px-3 text-[15px] text-[#2563EB] font-semibold border border-solid border-[#2563EB] rounded-lg"
             >
-              <span class="text-base text-[#2563EB] font-semibold"
-                >3д модель</span
-              >
+              3д модель
             </button>
           </div>
 
@@ -157,65 +152,69 @@ import ProjectNavigation from "~/components/ProjectNavigation.vue";
           <li
             class="w-full bg-white rounded-xl shadow-sm border border-solid border-[#e5e7eb]"
           >
-            <div
-              class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl"
-            >
-              <h3 class="text-lg text-[#1F2937] font-bold">План 1</h3>
-              <span class="my-4 text-base text-[#6B7280] font-medium"
-                >Дата создания: 30.11.2024</span
+            <NuxtLink to="/projects/[id]/plans/[planID]">
+              <div
+                class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl"
               >
-              <button class="w-fit py-3.5 flex items-center gap-x-2.5">
-                <span class="text-base text-[#3B82F6] font-semibold"
-                  >Перейти</span
+                <h3 class="text-lg text-[#1F2937] font-bold">План 2</h3>
+                <span class="my-4 text-base text-[#6B7280] font-medium"
+                  >Дата создания: 30.11.2024</span
                 >
-                <svg
-                  width="6"
-                  height="8"
-                  viewBox="0 0 6 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.25 7.5L4.75 4L1.25 0.5"
-                    stroke="#2563EB"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
+                <button class="w-fit py-3.5 flex items-center gap-x-2.5">
+                  <span class="text-base text-[#3B82F6] font-semibold"
+                    >Перейти</span
+                  >
+                  <svg
+                    width="6"
+                    height="8"
+                    viewBox="0 0 6 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.25 7.5L4.75 4L1.25 0.5"
+                      stroke="#2563EB"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </NuxtLink>
           </li>
 
           <li
             class="w-full bg-white rounded-xl shadow-sm border border-solid border-[#e5e7eb]"
           >
-            <div
-              class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl"
-            >
-              <h3 class="text-lg text-[#1F2937] font-bold">План 2</h3>
-              <span class="my-4 text-base text-[#6B7280] font-medium"
-                >Дата создания: 30.11.2024</span
+            <NuxtLink to="/projects/project/plans/5">
+              <div
+                class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl"
               >
-              <button class="w-fit py-3.5 flex items-center gap-x-2.5">
-                <span class="text-base text-[#3B82F6] font-semibold"
-                  >Перейти</span
+                <h3 class="text-lg text-[#1F2937] font-bold">План 1</h3>
+                <span class="my-4 text-base text-[#6B7280] font-medium"
+                  >Дата создания: 30.11.2024</span
                 >
-                <svg
-                  width="6"
-                  height="8"
-                  viewBox="0 0 6 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.25 7.5L4.75 4L1.25 0.5"
-                    stroke="#2563EB"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
+                <button class="w-fit py-3.5 flex items-center gap-x-2.5">
+                  <span class="text-base text-[#3B82F6] font-semibold"
+                    >Перейти</span
+                  >
+                  <svg
+                    width="6"
+                    height="8"
+                    viewBox="0 0 6 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.25 7.5L4.75 4L1.25 0.5"
+                      stroke="#2563EB"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </NuxtLink>
           </li>
         </ul>
       </div>

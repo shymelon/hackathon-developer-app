@@ -3,7 +3,7 @@ import type { FormValidation } from "~/types/FormValidation";
 import type { InputValidation } from "~/types/InputValidation";
 
 const errors: Ref<Map<string, { message: InputValidation }> | undefined> = ref(
-  new Map<string, { message: InputValidation }>(),
+  new Map<string, { message: InputValidation }>()
 );
 let response: FormValidation;
 

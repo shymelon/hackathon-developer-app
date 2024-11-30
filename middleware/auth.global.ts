@@ -20,6 +20,6 @@ export default defineNuxtRouteMiddleware(async (to) => {
   }
 
   if (user && isGuestPage) {
-    return "/dashboard";
+    return "/projects";
   }
 });

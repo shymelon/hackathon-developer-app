@@ -29,9 +29,6 @@ const user = await useUser();
     <div class="flex gap-x-5 items-center">
       <ul class="flex gap-x-5 items-center">
         <li class="text-sm text-[#1F2937] font-medium">
-          <NuxtLink to="/dashboard">Главная</NuxtLink>
-        </li>
-        <li class="text-sm text-[#1F2937] font-medium">
           <NuxtLink to="/projects">Проекты</NuxtLink>
         </li>
         <li class="text-sm text-[#1F2937] font-medium">

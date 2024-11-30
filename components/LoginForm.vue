@@ -1,8 +1,15 @@
 <script setup lang="ts">
-const $router = useRouter();
-const onSubmit = () => {
-  $router.push("/projects");
-};
+const errors: Ref<Map<string, { message: InputValidation }> | undefined> = ref(
+  new Map<string, { message: InputValidation }>(),
+);
+let response: FormValidation;
+
+const usernameOrEmail = ref("");
+const password = ref("");
+async function onSubmit() {
+  response = await loginWithEmail(usernameOrEmail.value, password.value);
+  errors.value = response.errors;
+}
 </script>
 
 <template>
@@ -13,8 +20,11 @@ const onSubmit = () => {
         >Почта</label
       >
       <input
-        id="email"
+        id="username"
+        v-model="usernameOrEmail"
         type="email"
+        name="username"
+        required
         class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-indigo-500 focus:ring-indigo-500 mt-[15px]"
       />
     </div>
@@ -26,13 +36,16 @@ const onSubmit = () => {
       >
       <input
         id="password"
+        v-model="password"
+        name="password"
         type="password"
+        autocomplete="current-password"
         class="block w-full rounded-lg border-[#E5E7EB] shadow-sm d mt-[15px]"
       />
     </div>
 
     <!-- Register Link -->
-    <NuxtLink to="/register" class="text-sm text-[#9CA3AF] font-medium mt-2.5"
+    <NuxtLink to="/sign-up" class="text-sm text-[#9CA3AF] font-medium mt-2.5"
       >Зарегистрироваться</NuxtLink
     >
 

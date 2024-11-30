@@ -24,4 +24,8 @@ export default defineNuxtConfig({
     cssPath: ["~/assets/css/tailwind.css", { injectPosition: "first" }],
     configPath: "tailwind.config",
   },
+  runtimeConfig: {
+    databaseUrl: process.env.DATABASE_URL,
+    databaseUrlUnpooled: process.env.DATABASE_URL_UNPOOLED,
+  },
 });

@@ -23,8 +23,7 @@ export default eventHandler(async (event: H3Event) => {
     const encryptedPassword: string = await bcrypt.hash(data.password, 10);
 
     const userData: IUser = {
-      username: data.username,
-      name: data.name,
+      name: "",
       email: data.email,
       loginType: "email",
       password: encryptedPassword,

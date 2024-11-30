@@ -25,7 +25,6 @@ export function sanitizeUserForFrontend(
 
   delete user.password;
   delete user.loginType;
-  delete user.stripeCustomerId;
 
   return user as User;
 }

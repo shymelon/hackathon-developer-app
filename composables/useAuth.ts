@@ -2,6 +2,7 @@ import { useRouter, useState } from "#app";
 import type { ISession } from "~~/types/ISession";
 import type { IUser } from "~/types/IUser";
 import useErrorMapper from "./useErrorMapper";
+import type { FormValidation } from "~/types/FormValidation";
 
 export const useAuthCookie = () => useCookie("auth_token");
 
@@ -42,15 +43,13 @@ export async function userLogout() {
 }
 
 export async function registerWithEmail(
-  username: string,
-  name: string,
   email: string,
   password: string,
 ): Promise<FormValidation> {
   try {
     const data = await $fetch<ISession>("/api/auth/register", {
       method: "POST",
-      body: { username, name, email, password },
+      body: { email, password },
     });
 
     if (data) {

@@ -5,6 +5,5 @@ export type InputValidation = {
   hasError: boolean;
   value: string;
   emailTaken?: boolean;
-  usernameTaken?: boolean;
   errorMessage?: string;
 };

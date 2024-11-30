@@ -18,7 +18,6 @@ model User {
   password  String?
   email     String?   @unique
   name      String?
-  username  String?   @unique
   session   Session[]
 }
 

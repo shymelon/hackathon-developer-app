@@ -2,10 +2,8 @@
 import { ref } from "vue";
 
 const email = ref<string>("");
-const username = ref<string>("");
 const password = ref<string>("");
 const passwordConfirmation = ref<string>("");
-const name = ref<string>("");
 
 const errors = ref<Map<string, string>>(new Map());
 
@@ -20,12 +18,7 @@ async function postRegisterForm() {
     return;
   }
 
-  response = await registerWithEmail(
-    username.value,
-    name.value,
-    email.value,
-    password.value,
-  );
+  response = await registerWithEmail(email.value, password.value);
 
   if (response.errors) {
     for (const [key, value] of Object.entries(response.errors)) {
@@ -65,36 +58,6 @@ definePageMeta({
             />
             <p v-if="errors.has('email')" class="text-red-500 text-sm mt-1">
               {{ errors.get("email") }}
-            </p>
-          </div>
-
-          <!-- Name Input -->
-          <div class="relative mb-4">
-            <label for="name" class="text-sm text-[#1F2937] font-medium"
-              >Имя</label
-            >
-            <input
-              id="name"
-              v-model="name"
-              class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-indigo-500 focus:ring-indigo-500 mt-[15px]"
-            />
-            <p v-if="errors.has('name')" class="text-red-500 text-sm mt-1">
-              {{ errors.get("name") }}
-            </p>
-          </div>
-
-          <!-- Дщпшт Input -->
-          <div class="relative mb-4">
-            <label for="username" class="text-sm text-[#1F2937] font-medium"
-              >Логин</label
-            >
-            <input
-              id="username"
-              v-model="username"
-              class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-indigo-500 focus:ring-indigo-500 mt-[15px]"
-            />
-            <p v-if="errors.has('username')" class="text-red-500 text-sm mt-1">
-              {{ errors.get("username") }}
             </p>
           </div>
 

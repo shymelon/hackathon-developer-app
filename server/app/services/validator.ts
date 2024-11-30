@@ -1,8 +1,6 @@
 import type { RegistrationRequest } from "~/types/IRegistration";
-import {
-  getUserByEmail,
-  getUserByUserName,
-} from "~/server/database/repositories/userRepository";
+import { getUserByEmail } from "~/server/database/repositories/userRepository";
+import type { InputValidation } from "~/types/InputValidation";
 
 export async function validate(data: RegistrationRequest) {
   const errors = new Map<string, { message: string | undefined }>();
@@ -25,7 +23,7 @@ async function validateRegistration(
   const check: InputValidation = {
     value,
     isBlank: false,
-    lenghtMin8: true,
+    lengthMin8: true,
     key,
     hasError: false,
   };
@@ -33,9 +31,9 @@ async function validateRegistration(
   if (key == "password") {
     if (value.length < 8) {
       check.hasError = true;
-      check.errorMessage = `password must be at least 8 characters`;
+      check.errorMessage = `Пароль должен быть минимум 8 символов`;
     }
-    check.lenghtMin8 = false;
+    check.lengthMin8 = false;
   }
 
   if (key == "email") {
@@ -43,16 +41,7 @@ async function validateRegistration(
     if (email) {
       check.emailTaken = true;
       check.hasError = true;
-      check.errorMessage = `Email is invalid or already taken`;
-    }
-  }
-
-  if (key == "username") {
-    const username = await getUserByUserName(value);
-    if (username) {
-      check.usernameTaken = true;
-      check.hasError = true;
-      check.errorMessage = `Username is invalid or already taken`;
+      check.errorMessage = `Такой email уже зарегестрирован`;
     }
   }
 

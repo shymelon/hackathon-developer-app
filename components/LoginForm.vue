@@ -1,13 +1,16 @@
 <script setup lang="ts">
+import type { FormValidation } from "~/types/FormValidation";
+import type { InputValidation } from "~/types/InputValidation";
+
 const errors: Ref<Map<string, { message: InputValidation }> | undefined> = ref(
   new Map<string, { message: InputValidation }>(),
 );
 let response: FormValidation;
 
-const usernameOrEmail = ref("");
+const email = ref("");
 const password = ref("");
 async function onSubmit() {
-  response = await loginWithEmail(usernameOrEmail.value, password.value);
+  response = await loginWithEmail(email.value, password.value);
   errors.value = response.errors;
 }
 </script>
@@ -20,10 +23,10 @@ async function onSubmit() {
         >Почта</label
       >
       <input
-        id="username"
-        v-model="usernameOrEmail"
+        id="email"
+        v-model="email"
         type="email"
-        name="username"
+        name="email"
         required
         class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-indigo-500 focus:ring-indigo-500 mt-[15px]"
       />

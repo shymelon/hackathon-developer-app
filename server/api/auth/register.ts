@@ -3,12 +3,12 @@ import { sendError } from "h3";
 import bcrypt from "bcrypt";
 import type { IUser } from "~/types/IUser";
 import { ZodError } from "zod";
-import sendDefaultErrorResponse from "~~/server/app/errors/responses/DefaultErrorsResponse";
+import sendDefaultErrorResponse from "~/server/app/errors/responses/defaultErrorsResponse";
 import registerRequest from "~/server/app/formRequests/registerRequest";
 import { validateUser } from "~/server/app/services/userService";
 import { makeSession } from "~~/server/app/services/sessionService";
 import { createUser } from "~/server/database/repositories/userRepository";
-import sendZodErrorResponse from "~/server/app/errors/responses/ZodErrorsResponse";
+import sendZodErrorResponse from "~/server/app/errors/responses/zodErrorsResponse";
 
 export default eventHandler(async (event: H3Event) => {
   try {

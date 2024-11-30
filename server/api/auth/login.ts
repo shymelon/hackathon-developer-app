@@ -3,11 +3,11 @@ import type { H3Event } from "h3";
 import { sendError } from "h3";
 import { ZodError } from "zod";
 import loginRequest from "~~/server/app/formRequests/loginRequest";
-import sendDefaultErrorResponse from "~~/server/app/errors/responses/defaultErrorsResponse";
+import sendDefaultErrorResponse from "~/server/app/errors/responses/defaultErrorsResponse";
 import { getMappedError } from "~~/server/app/errors/errorMapper";
 import { makeSession } from "~~/server/app/services/sessionService";
 import { sanitizeUserForFrontend } from "~~/server/app/services/userService";
-import sendZodErrorResponse from "~~/server/app/errors/responses/ZodErrorsResponse";
+import sendZodErrorResponse from "~/server/app/errors/responses/zodErrorsResponse";
 import { getUserByEmail } from "~/server/database/repositories/userRepository";
 
 const standardAuthError = getMappedError(

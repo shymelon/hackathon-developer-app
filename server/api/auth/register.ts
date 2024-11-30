@@ -4,7 +4,7 @@ import bcrypt from "bcrypt";
 import type { IUser } from "~/types/IUser";
 import { ZodError } from "zod";
 import sendDefaultErrorResponse from "~~/server/app/errors/responses/DefaultErrorsResponse";
-import registerRequest from "~/server/app/formRequests/RegisterRequest";
+import registerRequest from "~/server/app/formRequests/registerRequest";
 import { validateUser } from "~/server/app/services/userService";
 import { makeSession } from "~~/server/app/services/sessionService";
 import { createUser } from "~/server/database/repositories/userRepository";

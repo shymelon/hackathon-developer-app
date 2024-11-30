@@ -61,14 +61,14 @@ definePageMeta({
             class="flex items-center border border-solid border-[#E5E7EB] rounded-lg shadow-sm focus:ring-4 focus:ring-[#2563EB]/20 mt-[30px] bg-white"
           >
             <label
-              class="w-1/2 flex items-center px-4 py-3.5 border-r border-solid border-[#E5E7EB]"
+              class="w-1/2 flex items-center px-4 py-3.5 border-r border-solid border-[#E5E7EB] z-30"
             >
               <input type="radio" value="client" name="role" checked />
               <span class="ml-4 text-base text-[#1F2937] font-medium"
                 >Клиент</span
               >
             </label>
-            <label class="w-1/2 flex items-center px-4 py-3">
+            <label class="w-1/2 flex items-center px-4 py-3 z-30">
               <input type="radio" value="developer" name="role" />
               <span class="ml-4 text-base text-[#1F2937] font-medium"
                 >Девелопер</span

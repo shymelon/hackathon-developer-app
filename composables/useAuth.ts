@@ -1,8 +1,8 @@
 import { useRouter, useState } from "#app";
-import type { ISession } from "~~/types/ISession";
-import type { IUser } from "~/types/IUser";
-import useErrorMapper from "./useErrorMapper";
 import type { FormValidation } from "~/types/FormValidation";
+import type { IUser } from "~/types/IUser";
+import type { ISession } from "~~/types/ISession";
+import useErrorMapper from "./useErrorMapper";
 
 export const useAuthCookie = () => useCookie("auth_token");
 
@@ -45,7 +45,7 @@ export async function userLogout() {
 
 export async function registerWithEmail(
   email: string,
-  password: string,
+  password: string
 ): Promise<FormValidation> {
   try {
     const data = await $fetch<ISession>("/api/auth/register", {
@@ -66,7 +66,7 @@ export async function registerWithEmail(
 
 export async function loginWithEmail(
   usernameOrEmail: string,
-  password: string,
+  password: string
 ): Promise<FormValidation> {
   try {
     const result = await $fetch("/api/auth/login", {

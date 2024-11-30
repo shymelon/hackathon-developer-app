@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const $router = useRouter();
 const onSubmit = () => {
-  $router.push("/main");
+  $router.push("/dashboard");
 };
 </script>
 

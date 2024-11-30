@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const $router = useRouter();
 const onSubmit = () => {
-  $router.push("/main");
+  $router.push("/dashboard");
 };
 
 definePageMeta({
@@ -58,7 +58,7 @@ definePageMeta({
           </div>
 
           <div
-            class="flex items-center border border-solid border-[#E5E7EB] rounded-lg shadow-sm focus:ring-4 focus:ring-[#2563EB]/20 mt-[30px] bg-white"
+            class="z-50 flex items-center border border-solid border-[#E5E7EB] rounded-lg shadow-sm focus:ring-4 focus:ring-[#2563EB]/20 mt-[30px] bg-white"
           >
             <label
               class="w-1/2 flex items-center px-4 py-3.5 border-r border-solid border-[#E5E7EB] z-30"

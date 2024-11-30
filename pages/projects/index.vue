@@ -4,11 +4,13 @@
       <div class="flex justify-between items-center">
         <h1 class="text-4xl text-[#1F2937] font-semibold">Мои проекты</h1>
 
-        <button
-          class="px-3 py-2 text-base text-white font-semibold bg-[#2563EB] rounded-lg"
-        >
-          Создать новый
-        </button>
+        <NuxtLink to="/projects/new-project">
+          <button
+            class="px-3 py-2 text-base text-white font-semibold bg-[#2563EB] rounded-lg"
+          >
+            Создать новый
+          </button>
+        </NuxtLink>
       </div>
 
       <div class="flex gap-x-5 gap-y-10 items-center flex-wrap mt-10">

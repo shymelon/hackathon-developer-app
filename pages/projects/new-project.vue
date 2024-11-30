@@ -1,9 +1,12 @@
 <template>
   <div class="flex-1">
     <div class="mx-10 pt-10 flex gap-x-32">
-      <div class="flex flex-wrap gap-x-5 gap-y-8">
-        <button class="w-[32.354%]">
+      <div class="w-[57.721%] flex flex-wrap gap-x-5 gap-y-8">
+        <button
+          class="w-[56.051%] h-[200px] bg-white pt-12 pb-10 border border-solid border-[#e5e7eb] rounded-lg shadow-sm"
+        >
           <svg
+            class="mx-auto"
             width="70"
             height="52"
             viewBox="0 0 70 52"
@@ -104,37 +107,37 @@
           </svg>
 
           <div class="text-center">
-            <p class="text-center text-base text[#1F2937] font-medium">
+            <p class="text-center text-base text-[#1F2937] font-medium">
               Drop your files here or
-              <span class="text-center text-base text[#2563EB] font-medium"
+              <span class="text-center text-base text-[#2563EB] font-medium"
                 >browse</span
               >
             </p>
-            <p class="text-center text-sm text[#9CA3AF] font-medium">
+            <p class="text-center text-sm text-[#9CA3AF] font-medium">
               Maximum size: 50MB
             </p>
           </div>
         </button>
 
-        <div class="w-[32.354%] flex flex-col gap-y-[15px] justify-center">
+        <div class="w-[56.051%] flex flex-col gap-y-[15px] justify-center">
           <label for="name" class="text-sm text-[#1f2937] font-medium"
             >Название</label
           >
           <input
             id="name"
             type="text"
-            class="h-12 bg-white px-4 py-3.5 border border-solid border-[#e5e7eb] rounded-lg shadow-sm"
+            class="w-full h-12 bg-white px-4 py-3.5 border border-solid border-[#e5e7eb] rounded-lg shadow-sm"
           />
         </div>
 
-        <div class="flex flex-col gap-y-[15px] justify-center">
+        <div class="w-[41.402%] flex flex-col gap-y-[15px] justify-center">
           <label for="address" class="text-sm text-[#1f2937] font-medium"
             >Адрес</label
           >
           <input
             id="address"
             type="text"
-            class="h-12 bg-white px-4 py-3.5 border border-solid border-[#e5e7eb] rounded-lg shadow-sm"
+            class="w-full h-12 bg-white px-4 py-3.5 border border-solid border-[#e5e7eb] rounded-lg shadow-sm"
           />
         </div>
 
@@ -148,11 +151,11 @@
             id="description"
             placeholder="Какое-то описание человека"
             rows="9"
-            class="w-[32.354%] bg-white px-4 py-3.5 border border-solid border-[#e5e7eb] rounded-lg resize-none"
+            class="w-full bg-white px-4 py-3.5 border border-solid border-[#e5e7eb] rounded-lg resize-none"
           ></textarea>
         </div>
 
-        <div class="mt-10">
+        <div>
           <span class="text-sm text-[#6b7280] font-semibold"
             >Пользователи, имеющие доступ:</span
           >
@@ -247,7 +250,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="w-[32.345%] flex flex-col items-end">
         <button
           class="text-base text-white font-semibold bg-[#2563EB] rounded-lg py-2.5 px-3"
         >

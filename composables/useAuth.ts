@@ -40,6 +40,7 @@ export async function useLoggedIn() {
 export async function userLogout() {
   await useFetch("/api/auth/logout");
   useState("user").value = null;
+  await useRouter().push("/");
 }
 
 export async function registerWithEmail(

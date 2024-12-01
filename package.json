@@ -22,6 +22,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "apexcharts": "^4.1.0",
     "bcrypt": "^5.1.1",
+    "dhtmlx-gantt": "^9.0.3",
     "nuxt": "^3.14.1592",
     "preline": "^2.5.1",
     "prisma": "^6.0.0",

@@ -23,10 +23,16 @@
 
       <div
         class="w-full h-[500px] mt-10 bg-white pt-border border-solid border-[#e5e7eb] shadow-sm"
-      ></div>
+      >
+        <ClientOnly>
+          <GanttTable />
+        </ClientOnly>
+      </div>
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import GanttTable from "~/components/GanttTable.vue";
+</script>
 <style scoped></style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed w-full z-40 px-10 bg-[#F8FAFC] rounded-b-xl pb-6">
+  <div class="fixed w-full z-20 px-10 bg-[#F8FAFC] rounded-b-xl pb-6">
     <ul
       class="flex items-center border border-solid border-[#e5e7eb] rounded-xl shadow-sm"
     >

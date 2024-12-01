@@ -6,7 +6,7 @@ const user = await useUser();
 </script>
 
 <template>
-  <div class="hs-dropdown relative inline-flex z-30">
+  <div class="hs-dropdown relative inline-flex z-50">
     <button
       id="hs-dropdown-default"
       type="button"

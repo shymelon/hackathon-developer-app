@@ -25,11 +25,13 @@
               </p>
             </div>
 
-            <button
-              class="w-fit h-[38px] px-3 text-[15px] text-[#2563EB] font-semibold border border-solid border-[#2563EB] rounded-lg hover:bg-[#2563EB] hover:text-white"
+            <a
+              href="https://tar-wistful-lead.glitch.me/"
+              target="_blank"
+              class="w-fit h-[38px] px-3 text-[15px] py-1.5 text-[#2563EB] font-semibold border border-solid border-[#2563EB] rounded-lg hover:bg-[#2563EB] hover:text-white"
             >
               3д модель
-            </button>
+            </a>
 
             <div
               id="modal"

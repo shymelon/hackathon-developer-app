@@ -201,7 +201,7 @@
           <li
             class="w-full bg-white rounded-xl shadow-sm border border-solid border-[#e5e7eb]"
           >
-            <NuxtLink to="/projects/[id]/plans/[planID]/tasks">
+            <NuxtLink to="/projects/1/plans/2/tasks">
               <div
                 class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl hover:border-[#2563EB]"
               >
@@ -235,7 +235,7 @@
           <li
             class="w-full bg-white rounded-xl shadow-sm border border-solid border-[#e5e7eb]"
           >
-            <NuxtLink to="/projects/[id]/plans/[planID]/tasks">
+            <NuxtLink to="/projects/1/plans/1/tasks">
               <div
                 class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl hover:border-[#2563EB]"
               >

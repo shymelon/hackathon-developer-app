@@ -6,11 +6,17 @@
       <div class="flex gap-x-5">
         <div
           class="w-[32.354%] min-h-[250px] bg-white pt-5 pb-9 px-10 border border-solid border-[#e5e7eb] rounded-2xl shadow-sm"
-        ></div>
+        >
+          <span class="font-bold text-xl">Статистика по задачам</span>
+          <DohnutChart />
+        </div>
 
         <div
           class="w-[66.8%] min-h-[250px] bg-white pt-5 pb-9 px-10 border border-solid border-[#e5e7eb] rounded-2xl shadow-sm"
-        ></div>
+        >
+          <span class="font-bold text-xl">Уведомления</span>
+          <div class="mt-3 text-gray-500">Уведомлений по проекту нет</div>
+        </div>
       </div>
 
       <div
@@ -20,4 +26,5 @@
   </div>
 </template>
 
+<script setup lang="ts"></script>
 <style scoped></style>

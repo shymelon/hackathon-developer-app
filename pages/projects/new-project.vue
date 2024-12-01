@@ -1,6 +1,6 @@
 <template>
-  <div class="flex-1">
-    <div class="mx-10 pt-10 flex gap-x-32">
+  <div class="flex-1 pt-24">
+    <div class="mx-10 pt-10 flex gap-x-32 justify-between">
       <div class="w-[57.721%] flex flex-wrap gap-x-5 gap-y-8">
         <button
           class="w-[56.051%] h-[200px] bg-white pt-12 pb-10 border border-solid border-[#e5e7eb] rounded-lg shadow-sm"

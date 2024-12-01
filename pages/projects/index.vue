@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-1">
+  <div class="flex-1 pt-24">
     <main id="app" class="px-10">
       <div class="flex justify-between items-center">
         <h1 class="text-4xl text-[#1F2937] font-semibold">Мои проекты</h1>

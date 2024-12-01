@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-1">
+  <div class="flex-1 pt-24 -mt-1">
     <PlanNavigation />
 
-    <div class="mt-5 px-10">
+    <div class="mt-20 px-10">
       <div class="flex gap-x-5">
         <div
           class="w-[32.354%] min-h-[250px] bg-white py-5 px-10 border border-solid border-[#e5e7eb] rounded-2xl shadow-sm"

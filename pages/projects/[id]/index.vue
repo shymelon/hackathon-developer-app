@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex-1">
-    <ProjectNavigation />
-    <div class="mx-10 pt-10 flex gap-x-5 justify-between">
+  <div class="flex-1 pt-24 -mt-1">
+    <PlanNavigation />
+    <div class="mt-14 pt-10 px-10 flex gap-x-32 justify-between">
       <div class="w-[57.721%]">
         <div class="w-full min-h-[200px] overflow-hidden">
           <img

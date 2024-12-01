@@ -1,5 +1,5 @@
 <template>
-  <main class="px-10 flex-1">
+  <main class="px-10 flex-1 pt-24 -mt-1">
     <h1 class="text-4xl text-[#1F2937] font-semibold">Настройки</h1>
 
     <div class="mt-9 grid grid-cols-3 gap-x-5 gap-y-7">

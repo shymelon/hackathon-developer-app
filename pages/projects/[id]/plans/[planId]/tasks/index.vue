@@ -8,7 +8,9 @@
           class="w-[32.354%] min-h-[250px] bg-white pt-5 pb-9 px-10 border border-solid border-[#e5e7eb] rounded-2xl shadow-sm"
         >
           <span class="font-bold text-xl">Статистика по задачам</span>
-          <DohnutChart />
+          <ClientOnly>
+            <DohnutChart />
+          </ClientOnly>
         </div>
 
         <div

@@ -8,7 +8,7 @@ const tasks = {
       id: 1,
       text: "Подготовка основания",
       duration: 10,
-      cost: 45000,
+      cost: 110000,
       start_date: "19.09.2024",
       end_date: "24.09.2024",
       open: true,

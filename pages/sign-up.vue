@@ -101,7 +101,7 @@ definePageMeta({
           <div class="flex mx-auto mt-[30px]">
             <button
               type="submit"
-              class="mx-auto py-3.5 px-4 text-base text-[#3B82F6] font-semibold inline-flex items-center rounded-lg border border-[#2563EB]"
+              class="mx-auto py-3.5 px-4 text-base text-[#3B82F6] font-semibold inline-flex items-center rounded-lg border border-[#2563EB] hover:bg-[#2563EB] hover:text-white"
             >
               Зарегистрироваться
             </button>

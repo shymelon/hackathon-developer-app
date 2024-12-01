@@ -3,11 +3,11 @@
 <template>
   <div class="flex-1">
     <ProjectNavigation />
-    <div class="mx-10 pt-10 flex gap-x-32">
+    <div class="mx-10 pt-10 flex gap-x-5 justify-between">
       <div class="w-[57.721%]">
-        <div class="w-full min-h-[200px]">
+        <div class="w-full min-h-[200px] overflow-hidden">
           <img
-            class="w-full h-full object-cover rounded-lg"
+            class="w-full object-fill rounded-lg"
             src="/images/project_img.png"
             alt="иллюстрационная картинка"
           />
@@ -26,10 +26,59 @@
             </div>
 
             <button
-              class="w-fit h-[38px] px-3 text-[15px] text-[#2563EB] font-semibold border border-solid border-[#2563EB] rounded-lg"
+              class="w-fit h-[38px] px-3 text-[15px] text-[#2563EB] font-semibold border border-solid border-[#2563EB] rounded-lg hover:bg-[#2563EB] hover:text-white"
             >
               3д модель
             </button>
+
+            <div
+              id="modal"
+              class="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center hidden"
+            >
+              <div
+                class="relative bg-white p-10 rounded-2xl shadow-lg max-w-sm w-full"
+              >
+                <svg
+                  class="absolute right-5 top-5"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4L4 12"
+                    stroke="#1F2937"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4 4L12 12"
+                    stroke="#1F2937"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <img
+                  src=""
+                  alt="qr-code"
+                  class="w-full aspect-w-1 aspect-h-1 bg-[#D9D9D9] rounded-[5px]"
+                />
+
+                <h4
+                  class="w-full text-center text-2xl text-[#1F2937] font-bold mt-5"
+                >
+                  QR-код
+                </h4>
+
+                <p
+                  class="text-center text-base text-[#6B7280] font-medium mt-2.5"
+                >
+                  Отсканируйте данный код, чтобы открыть 3д модель
+                </p>
+              </div>
+            </div>
           </div>
 
           <div class="mt-10">
@@ -154,7 +203,7 @@
           >
             <NuxtLink to="/projects/[id]/plans/[planID]/tasks">
               <div
-                class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl"
+                class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl hover:border-[#2563EB]"
               >
                 <h3 class="text-lg text-[#1F2937] font-bold">План 2</h3>
                 <span class="my-4 text-base text-[#6B7280] font-medium"
@@ -188,7 +237,7 @@
           >
             <NuxtLink to="/projects/[id]/plans/[planID]/tasks">
               <div
-                class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl"
+                class="w-full h-full border-t-2 border-solid border-[#BFBFBF] p-5 rounded-xl hover:border-[#2563EB]"
               >
                 <h3 class="text-lg text-[#1F2937] font-bold">План 1</h3>
                 <span class="my-4 text-base text-[#6B7280] font-medium"

@@ -45,7 +45,7 @@ export async function userLogout() {
 
 export async function registerWithEmail(
   email: string,
-  password: string
+  password: string,
 ): Promise<FormValidation> {
   try {
     const data = await $fetch<ISession>("/api/auth/register", {
@@ -66,7 +66,7 @@ export async function registerWithEmail(
 
 export async function loginWithEmail(
   usernameOrEmail: string,
-  password: string
+  password: string,
 ): Promise<FormValidation> {
   try {
     const result = await $fetch("/api/auth/login", {

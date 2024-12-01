@@ -69,11 +69,13 @@
       </div>
     </div>
 
-    <button
-      class="text-base text-white font-semibold py-2.5 px-3 bg-[#2563EB] rounded-lg mt-9"
-    >
-      Сохранить
-    </button>
+    <NuxtLink to="/projects">
+      <button
+        class="text-base text-white font-semibold py-2.5 px-3 bg-[#2563EB] rounded-lg mt-9"
+      >
+        Сохранить
+      </button>
+    </NuxtLink>
   </main>
 </template>
 

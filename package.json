@@ -19,6 +19,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@prisma/adapter-neon": "^6.0.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "bcrypt": "^5.1.1",
     "nuxt": "^3.14.1592",
     "preline": "^2.5.1",

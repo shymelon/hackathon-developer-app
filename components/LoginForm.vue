@@ -3,7 +3,7 @@ import type { FormValidation } from "~/types/FormValidation";
 import type { InputValidation } from "~/types/InputValidation";
 
 const errors: Ref<Map<string, { message: InputValidation }> | undefined> = ref(
-  new Map<string, { message: InputValidation }>(),
+  new Map<string, { message: InputValidation }>()
 );
 let response: FormValidation;
 
@@ -28,7 +28,7 @@ async function onSubmit() {
         type="email"
         name="email"
         required
-        class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-indigo-500 focus:ring-indigo-500 mt-[15px]"
+        class="block w-full rounded-lg border-[#E5E7EB] shadow-sm focus:border-[#2563EB] focus:ring-4 focus:ring-[#2563EB]/20 mt-[15px]"
       />
     </div>
 
@@ -43,7 +43,7 @@ async function onSubmit() {
         name="password"
         type="password"
         autocomplete="current-password"
-        class="block w-full rounded-lg border-[#E5E7EB] shadow-sm d mt-[15px]"
+        class="block w-full rounded-lg border-[#E5E7EB] shadow-sm d mt-[15px] focus:border-[#2563EB] focus:ring-4 focus:ring-[#2563EB]/20"
       />
     </div>
 
@@ -57,7 +57,7 @@ async function onSubmit() {
       <input
         type="submit"
         value="Войти"
-        class="cursor-pointer mx-auto py-3.5 px-4 text-base text-[#3B82F6] font-semibold inline-flex items-center rounded-lg border border-[#2563EB]"
+        class="cursor-pointer mx-auto py-3.5 px-4 text-base text-[#3B82F6] font-semibold inline-flex items-center rounded-lg border border-[#2563EB] hover:bg-[#2563EB] hover:text-white"
       />
     </div>
   </form>

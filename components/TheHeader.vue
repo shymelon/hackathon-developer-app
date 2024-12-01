@@ -108,18 +108,18 @@ const user = await useUser();
         </button>
 
         <ul
-          class="px-3 py-2 border border-solid border-[#E5E7EB] rounded-lg shadow-xl"
+          class="px-2 py-2 border border-solid border-[#E5E7EB] rounded-xl shadow-xl"
         >
-          <li class="rounded-lg">
+          <li class="rounded-lg py-2 px-3 hover:bg-[#F3F4F6]">
             <NuxtLink
               to="/settings"
-              class="text-sm text-[#1F2937] font-medium px-3 py-2 rounded-lg"
+              class="text-sm text-[#1F2937] font-medium text-center"
               >Настройки</NuxtLink
             >
           </li>
           <li
             type="button"
-            class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg text-[#EB1010] hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none"
+            class="py-2 px-3 text-sm font-medium rounded-lg text-[#EB1010] hover:bg-[#F3F4F6] disabled:opacity-50 disabled:pointer-events-none cursor-pointer text-center"
             @click="userLogout"
           >
             Выход

@@ -18,7 +18,7 @@
           <article
             class="w-full max-h-[362px] border border-solid border-[#E5E7EB] rounded-lg shadow-sm"
           >
-            <div class="w-full max-h-[200px] z-0">
+            <div class="w-full max-h-[200px] overflow-hidden">
               <img
                 class="w-full rounded-t-lg object-fill"
                 src="/images/project__bg.png"
@@ -44,7 +44,7 @@
           <article
             class="w-full max-h-[362px] border border-solid border-[#E5E7EB] rounded-lg shadow-sm"
           >
-            <div class="w-full max-h-[200px] z-0">
+            <div class="w-full max-h-[200px] overflow-hidden">
               <img
                 class="w-full rounded-t-lg object-fill"
                 src="/images/project__bg.png"
@@ -54,7 +54,7 @@
             <div
               class="w-full flex flex-col gap-y-4 h-fit p-5 bg-white rounded-b-lg"
             >
-              <h2 class="text-lg text-[#1F2937] font-bold">Проект 1</h2>
+              <h2 class="text-lg text-[#1F2937] font-bold">Проект 2</h2>
               <p class="text-base text-[#6B7280] font-medium">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -70,7 +70,7 @@
           <article
             class="w-full max-h-[362px] border border-solid border-[#E5E7EB] rounded-lg shadow-sm"
           >
-            <div class="w-full max-h-[200px] z-0">
+            <div class="w-full max-h-[200px] overflow-hidden">
               <img
                 class="w-full rounded-t-lg object-fill"
                 src="/images/project__bg.png"
@@ -80,7 +80,7 @@
             <div
               class="w-full flex flex-col gap-y-4 h-fit p-5 bg-white rounded-b-lg"
             >
-              <h2 class="text-lg text-[#1F2937] font-bold">Проект 1</h2>
+              <h2 class="text-lg text-[#1F2937] font-bold">Проект 3</h2>
               <p class="text-base text-[#6B7280] font-medium">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -96,7 +96,7 @@
           <article
             class="w-full max-h-[362px] border border-solid border-[#E5E7EB] rounded-lg shadow-sm"
           >
-            <div class="w-full max-h-[200px] z-0">
+            <div class="w-full max-h-[200px] overflow-hidden">
               <img
                 class="w-full rounded-t-lg object-fill"
                 src="/images/project__bg.png"
@@ -106,7 +106,7 @@
             <div
               class="w-full flex flex-col gap-y-4 h-fit p-5 bg-white rounded-b-lg"
             >
-              <h2 class="text-lg text-[#1F2937] font-bold">Проект 1</h2>
+              <h2 class="text-lg text-[#1F2937] font-bold">Проект 4</h2>
               <p class="text-base text-[#6B7280] font-medium">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -127,7 +127,7 @@
             <article
               class="w-full max-h-[362px] border border-solid border-[#E5E7EB] rounded-lg shadow-sm"
             >
-              <div class="w-full max-h-[200px] z-0">
+              <div class="w-full max-h-[200px] overflow-hidden">
                 <img
                   class="w-full rounded-t-lg object-fill"
                   src="/images/project__bg.png"
@@ -153,7 +153,7 @@
             <article
               class="w-full max-h-[362px] border border-solid border-[#E5E7EB] rounded-lg shadow-sm"
             >
-              <div class="w-full max-h-[200px] z-0">
+              <div class="w-full max-h-[200px] overflow-hidden">
                 <img
                   class="w-full rounded-t-lg object-fill"
                   src="/images/project__bg.png"
@@ -179,7 +179,7 @@
             <article
               class="w-full max-h-[362px] border border-solid border-[#E5E7EB] rounded-lg shadow-sm"
             >
-              <div class="w-full max-h-[200px] z-0">
+              <div class="w-full max-h-[200px] overflow-hidden">
                 <img
                   class="w-full rounded-t-lg object-fill"
                   src="/images/project__bg.png"
@@ -205,7 +205,7 @@
             <article
               class="w-full max-h-[362px] border border-solid border-[#E5E7EB] rounded-lg shadow-sm"
             >
-              <div class="w-full max-h-[200px] z-0">
+              <div class="w-full max-h-[200px] overflow-hidden">
                 <img
                   class="w-full rounded-t-lg object-fill"
                   src="/images/project__bg.png"

@@ -136,3 +136,15 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+## 🗨️ Состав команды 
+[Горлов Григорий](https://github.com/shymelon) - **Full-stack dev / DevOps / Lead**
+
+[Шокуев Имран](https://github.com/imka07) - **3D AR Dev**
+
+[Фунг Туан Ань](https://github.com/Himura-777) - **Frontend**
+
+[Гулякина Аня](https://dprofile.ru/anyagulyakina) - **UI / UX**
+
+[Калмыков Али](https://t.me/user567456) - **UAV Engineer**

@@ -118,8 +118,9 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 
 ## ⚙️ Архитектруа 
-
-
+<img src="media/block1.jpeg">
+<img src="media/block2.jpeg">
+<img src="media/block3.jpeg">
 
 ## Функционал
 
